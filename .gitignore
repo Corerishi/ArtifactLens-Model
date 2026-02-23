@@ -1,6 +1,7 @@
 # Ignore the massive dataset
 Phase1_Preprocessing/raw_data/
 Phase1_Preprocessing/processed_data/
+Phase1_Preprocessing/processed_data (2).zip
 Phase1_Preprocessing/processed_data.zip
 
 # Ignore python virtual environment
