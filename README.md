@@ -12,7 +12,7 @@
 
 ---
 
-## 🧠 What is this?
+## What is this?
 
 This repo documents the complete **model development pipeline** for ArtifactLens — from dataset preparation and preprocessing (Phase 1) to model training, checkpointing, and inference (Phase 2).
 
@@ -20,7 +20,7 @@ The model is a **fine-tuned ResNet50** classifier trained to distinguish real vs
 
 ---
 
-## 📊 Training Results
+## Training Results
 
 | Metric | Value |
 |---|---|
@@ -48,7 +48,7 @@ The model is a **fine-tuned ResNet50** classifier trained to distinguish real vs
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ```
 Input (224 × 224 × 3)
@@ -81,7 +81,7 @@ Binary Output: Real / Fake
 
 ---
 
-## 🔬 Two-Phase Pipeline
+## Two-Phase Pipeline
 
 ### Phase 1 — Preprocessing
 - Raw video frames extracted and processed
@@ -98,7 +98,7 @@ Binary Output: Real / Fake
 
 ---
 
-## 🔍 Inference Pipeline
+## Inference Pipeline
 
 The `inference_copy.py` module handles production inference with a full face preprocessing step before the model sees the image:
 
@@ -137,7 +137,7 @@ The model was observed to be conservative in predicting "Real" — most scores c
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Python 3.9
@@ -183,7 +183,7 @@ Phase1_Preprocessing/processed_data/
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ArtifactLens-Model/
@@ -206,7 +206,7 @@ ArtifactLens-Model/
 
 ---
 
-## 📦 Key Dependencies
+## Key Dependencies
 
 ```
 tensorflow==2.x
@@ -218,11 +218,11 @@ numpy
 
 ---
 
-## 🔗 Related Repository
+## Related Repository
 
 The trained model from this repo is deployed inside:
 
-👉 **[ArtifactLens](https://github.com/Corerishi/ArtifactLens)** — FastAPI + React + MongoDB Atlas deepfake detection web app
+ **[ArtifactLens](https://github.com/Corerishi/ArtifactLens)** — FastAPI + React + MongoDB Atlas deepfake detection web app
 
 ---
 
@@ -231,9 +231,9 @@ The trained model from this repo is deployed inside:
 The trained model weights (`artifact_lens_final.h5`) are **not included** in this repository.  
 To obtain the weights for research or academic purposes, please reach out via:
 
-📧 [LinkedIn](https://linkedin.com/in/rishi-raj-9110a824a)
+ [LinkedIn](https://linkedin.com/in/rishi-raj-9110a824a)
 
-## 👨‍💻 Author
+## Author
 
 **Rishi Raj**  
 MCA — CHRIST (Deemed to be University)  
@@ -241,6 +241,6 @@ MCA — CHRIST (Deemed to be University)
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
